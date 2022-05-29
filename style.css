@@ -18,9 +18,11 @@
 }
 
 @media (max-width: 768px) {
-.header { text-align: center;
+  .header {
+    text-align: center;
+  }
 }
-}
+
 .centered-main-page-element {
   display: block;
   width: 500px;
@@ -108,7 +110,6 @@ li {
 li > * {
   vertical-align: middle;
 }
-
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
